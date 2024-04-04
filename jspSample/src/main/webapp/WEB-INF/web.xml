@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" id="WebApp_ID" version="4.0">
+ 
+  
+  <servlet>
+  	<servlet-name>TopServlet</servlet-name>
+  	<servlet-class>myform.TopServlet</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>TopServlet</servlet-name>
+  	<url-pattern>/top</url-pattern>
+  </servlet-mapping>
+  
+  
+  
+   <servlet>
+  	<servlet-name>ConfirmServlet</servlet-name>
+  	<servlet-class>myform.ConfirmServlet</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>ConfirmServlet</servlet-name>
+  	<url-pattern>/confirm</url-pattern>
+  </servlet-mapping>
+  
+  
+  
+   <servlet>
+  	<servlet-name>ThanksServlet</servlet-name>
+  	<servlet-class>myform.ThanksServlet</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>ThanksServlet</servlet-name>
+  	<url-pattern>/thanks</url-pattern>
+  </servlet-mapping>
+  
+</web-app>
